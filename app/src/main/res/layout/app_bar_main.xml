@@ -23,7 +23,26 @@
                 app:popupTheme="@style/AppTheme.PopupOverlay"
 
                 />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
+            android:layout_alignRight="@+id/toolbar"
+            >
+            <View
+                android:id="@+id/View01"
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="#ffff"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="@mipmap/logo"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
     </RelativeLayout>
     </android.support.design.widget.AppBarLayout>
 

@@ -2,14 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/contactUs"
+            android:icon="@mipmap/back"
+            android:title="Back" />
         <item
             android:id="@+id/aboutUs"
             android:icon="@mipmap/userpx"
             android:title="About Us" />
-        <item
-            android:id="@+id/contactUs"
-            android:icon="@mipmap/userpx"
-            android:title="Contact Us" />
+
         <item
             android:id="@+id/webPage"
             android:icon="@mipmap/userpx"
